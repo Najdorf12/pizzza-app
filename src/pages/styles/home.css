@@ -82,7 +82,12 @@
     text-align: center;
     font-family: var(--font-title);
     color: var(--color3);
-    filter: drop-shadow(2px 2px 3px rgb(180, 178, 159));
+    filter: drop-shadow(3px 3px 6px rgb(158, 157, 145));
+    background-clip: border-box;
+    background: -webkit-linear-gradient(left top, #ffe53b, #ffe53b);
+    background: linear-gradient(148deg, var(--color3) 0%, var(--color5) 60%, var(--color1) 99%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
 }
 .photo {
