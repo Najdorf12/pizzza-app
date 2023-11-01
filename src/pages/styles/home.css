@@ -37,10 +37,10 @@
     font-size: 6rem;
     line-height: 4.5rem;
     text-align: center;
-    filter: drop-shadow(3px 3px 5px var(--color1));
+    filter: drop-shadow(3px 3px 5px var(--color3));
     background-clip: border-box;
     background: -webkit-linear-gradient(left top, #ffe53b, #ffe53b);
-    background: linear-gradient(148deg, var(--color2) 10%, var(--color5) 50%, var(--color2) 100%);
+    background: linear-gradient(148deg, var(--color1) 0%, var(--color5) 50%, var(--color2) 99%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
