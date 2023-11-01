@@ -194,7 +194,7 @@
 }
 @media (min-width: 800px) {
   .pizza1-wrapper {
-    width: 99vw;
+    width: 98.5vw;
     height: 70vh;
     flex-direction: row;
     overflow: hidden;
@@ -237,7 +237,7 @@
     margin-bottom: -15rem;
   }
   .pizza2-wrapper {
-    width: 99vw;
+    width: 98.5vw;
     height: 70vh;
     flex-direction: row;
     overflow: hidden;
@@ -265,7 +265,7 @@
     }
   }
   .pizza3-wrapper {
-    width: 99vw;
+    width: 98.5vw;
     height: 70vh;
     flex-direction: row;
     overflow: hidden;
