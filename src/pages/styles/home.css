@@ -309,15 +309,16 @@
 @media(min-width: 1100px){
   .home-wrapper{
     height: 99vh;
-    width: 99vw;
+    width: 98vw;
+    overflow: hidden;
   }
   .img-home {
-    margin-top: -5rem;
+    margin-top: -1rem;
     justify-self: flex-end;
     & img {
       max-width: 500px;
       position: absolute;
-      right: 90px;
+      right: 200px;
     }
   }
   .cards-wrapper {
