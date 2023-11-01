@@ -1,0 +1,294 @@
+/* PIZZA1 */
+.pizza1-wrapper {
+  width: 100vw;
+  height: 80vh;
+  background-color: rgb(27, 22, 22);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  overflow: hidden;
+  margin-top: 2rem;
+  padding-top: 1rem;
+}
+
+.text-pizza1 {
+  max-width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  text-wrap: balance;
+  padding: 1rem;
+
+  & h2 {
+    font-family: var(--font-art);
+    margin-bottom: 1rem;
+    color: rgb(226, 44, 44);
+    font-size: 2rem;
+  }
+  & p {
+    color: whitesmoke;
+    font-family: var(--font-title);
+    font-size: 1.1rem;
+  }
+}
+.pizza1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.pizza1-img {
+  margin-top: -2rem;
+  & img {
+    max-width: 270px;
+  }
+}
+/* PIZZA2 */
+
+.pizza2-wrapper {
+  width: 100vw;
+  height: 80vh;
+  background-color: rgb(27, 22, 22);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  overflow: hidden;
+  margin-top: 2rem;
+  padding-top: 1rem;
+}
+
+.text-pizza2 {
+  max-width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  text-wrap: balance;
+  padding: 1rem;
+
+  & h2 {
+    font-family: var(--font-art);
+    margin-bottom: 1rem;
+    color: rgb(226, 44, 44);
+    font-size: 2rem;
+  }
+  & p {
+    color: whitesmoke;
+    font-family: var(--font-title);
+    font-size: 1.1rem;
+  }
+}
+.pizza2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.pizza2-img {
+  margin-top: -2rem;
+  & img {
+    max-width: 270px;
+  }
+}
+/* PIZZA3 */
+
+.pizza3-wrapper {
+  width: 100vw;
+  height: 80vh;
+  background-color: rgb(27, 22, 22);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  overflow: hidden;
+  margin-top: 2rem;
+  padding-top: 1rem;
+}
+
+.text-pizza3 {
+  max-width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  text-wrap: balance;
+  padding: 1rem;
+
+  & h2 {
+    font-family: var(--font-art);
+    margin-bottom: 1rem;
+    color: rgb(226, 44, 44);
+    font-size: 2rem;
+  }
+  & p {
+    color: whitesmoke;
+    font-family: var(--font-title);
+    font-size: 1.1rem;
+  }
+}
+.pizza3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.pizza3-img {
+  margin-top: -2rem;
+  & img {
+    max-width: 270px;
+  }
+}
+
+/* BUTTONS */
+.pizza-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20rem;
+  margin-bottom: 1rem;
+}
+.btn-prev {
+  width: 5%;
+  height: 8%;
+  font-size: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: inherit;
+  border: none;
+  margin-bottom: -3rem;
+  & i {
+    color: crimson;
+  }
+}
+.btn-next {
+  width: 5%;
+  height: 8%;
+  font-size: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: crimson;
+  background-color: inherit;
+  border: none;
+  margin-bottom: -3rem;
+  & i {
+    color: crimson;
+  }
+}
+
+.btn-prev :hover {
+  cursor: pointer;
+  scale: 1.2;
+}
+.btn-next :hover {
+  cursor: pointer;
+  scale: 1.2;
+}
+@media (min-width: 800px) {
+  .pizza1-wrapper {
+    height: 70vh;
+    flex-direction: row;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    gap: 7rem;
+    padding-top: 5rem;
+  }
+
+  .text-pizza1 {
+    max-width: 30%;
+    align-self: flex-start;
+    & h2 {
+      font-size: 3rem;
+    }
+    & p {
+      font-size: 1.5rem;
+    }
+  }
+
+  .pizza1-img {
+    margin-top: 3rem;
+    & img {
+      max-width: 300px;
+    }
+  }
+  .pizza-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25rem;
+    margin-bottom: -6rem;
+  }
+  .btn-prev {
+    font-size: 4rem;
+    margin-bottom: -15rem;
+  }
+  .btn-next {
+    font-size: 4rem;
+    margin-bottom: -15rem;
+  }
+  .pizza2-wrapper {
+    height: 70vh;
+    flex-direction: row;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    gap: 7rem;
+    padding-top: 5rem;
+  }
+
+  .text-pizza2 {
+    max-width: 30%;
+    align-self: flex-start;
+    & h2 {
+      font-size: 3rem;
+    }
+    & p {
+      font-size: 1.5rem;
+    }
+  }
+
+  .pizza2-img {
+    margin-top: 3rem;
+    & img {
+      max-width: 300px;
+    }
+  }
+  .pizza3-wrapper {
+    height: 70vh;
+    flex-direction: row;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    gap: 7rem;
+    padding-top: 5rem;
+  }
+
+  .text-pizza3 {
+    max-width: 30%;
+    align-self: flex-start;
+    & h2 {
+      font-size: 3rem;
+    }
+    & p {
+      font-size: 1.5rem;
+    }
+  }
+
+  .pizza3-img {
+    margin-top: 3rem;
+    & img {
+      max-width: 300px;
+    }
+  }
+}

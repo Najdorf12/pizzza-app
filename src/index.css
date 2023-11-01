@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nosifer&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --color1: #C70039;
+  --color2: #900C3F;
+  --color3: #F94C10;
+  --color4: #f4ce14;
+  --color5: rgb(27,22,22);
+  --font-title: 'Bebas Neue', sans-serif;
+  --font-text: 'Oswald', sans-serif;
+  --font-text2:'Nosifer', sans-serif;
+  --font-art: 'Sedgwick Ave Display', cursive;
+}
+
