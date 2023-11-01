@@ -312,16 +312,16 @@
     width: 99vw;
   }
   .img-home {
-    margin-top: 10rem;
+    margin-top: -5rem;
     justify-self: flex-end;
     & img {
       max-width: 500px;
       position: absolute;
-      right: 50px;
+      right: 90px;
     }
   }
   .cards-wrapper {
-    width: 98vw;
+    width: 97vw;
   }
   
 }
