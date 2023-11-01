@@ -312,7 +312,7 @@
     width: 99vw;
   }
   .img-home {
-    margin-top:-4rem;
+    margin-top:-8rem;
     justify-self: flex-end;
     & img {
       max-width: 500px;
