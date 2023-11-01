@@ -40,7 +40,7 @@
     filter: drop-shadow(3px 3px 5px var(--color1));
     background-clip: border-box;
     background: -webkit-linear-gradient(left top, #ffe53b, #ffe53b);
-    background: linear-gradient(147deg, var(--color5) 70%,var(--color2) 94%);
+    background: linear-gradient(147deg, var(--color5) 75%,var(--color2) 94%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
@@ -99,6 +99,7 @@
   align-items: center;
   height: 30px;
   margin-top: 3rem;
+  margin-bottom: 3rem;
   padding-bottom: 1rem;
   & button {
     width: 100px;
@@ -106,7 +107,7 @@
     padding: 1rem;
     background-color: rgb(27, 22, 22);
     border-radius: 5px;
-    color: var(--color1);
+    color: var(--color3);
     margin: 0 auto;
     display: flex;
     justify-content: center;
@@ -290,6 +291,18 @@
       max-width: 350px;
     }
   }
+  .btn-menu {
+    display: flex;
+    margin: 0 auto;
+    width: 50%;
+    height: max-content;
+    align-items: center;
+    margin-top: 2rem;
+    & button {
+      width: 120px;
+      padding: 1rem;
+    }
+  }
   
 }
 
@@ -299,13 +312,16 @@
     width: 99vw;
   }
   .img-home {
-    margin-top:-2rem;
+    margin-top:-2.5rem;
     justify-self: flex-end;
     & img {
       max-width: 500px;
       position: absolute;
       right: 70px;
     }
+  }
+  .cards-wrapper {
+    width: 99vw;
   }
   
 }
