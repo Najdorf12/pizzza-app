@@ -309,11 +309,11 @@
 @media(min-width: 1100px){
   .home-wrapper{
     height: 99vh;
-    width: 98vw;
+    width: 99vw;
     overflow: hidden;
   }
   .img-home {
-    margin-top: -1rem;
+    margin-top: -2rem;
     justify-self: flex-end;
     & img {
       max-width: 500px;
