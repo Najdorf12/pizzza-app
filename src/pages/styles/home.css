@@ -317,11 +317,11 @@
     & img {
       max-width: 500px;
       position: absolute;
-      right: 60px;
+      right: 50px;
     }
   }
   .cards-wrapper {
-    width: 99vw;
+    width: 98vw;
   }
   
 }
