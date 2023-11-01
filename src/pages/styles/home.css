@@ -81,7 +81,7 @@
     font-size: 2.5rem;
     text-align: center;
     font-family: var(--font-title);
-    color: var(--color1);
+    color: var(--color3);
     filter: drop-shadow(2px 2px 3px rgb(180, 178, 159));
   }
 }
