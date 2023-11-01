@@ -297,6 +297,7 @@
   .home-wrapper{
     height: 100vh;
     width: 98vw;
+    background-color: rgb(189, 135, 135);
   }
   .img-home {
     margin-top: -5rem;
