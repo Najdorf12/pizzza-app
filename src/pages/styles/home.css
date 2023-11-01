@@ -40,7 +40,7 @@
     filter: drop-shadow(3px 3px 5px var(--color1));
     background-clip: border-box;
     background: -webkit-linear-gradient(left top, #ffe53b, #ffe53b);
-    background: linear-gradient(147deg, var(--color5) 75%,var(--color2) 94%);
+    background: linear-gradient(148deg, var(--color2) 10%, var(--color5) 50%, var(--color2) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
