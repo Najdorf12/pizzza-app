@@ -295,7 +295,7 @@
 
 @media(min-width: 1100px){
   .home-wrapper{
-    height: 100vh;
+    height: 99vh;
     width: 99vw;
   }
   .img-home {
