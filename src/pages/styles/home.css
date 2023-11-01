@@ -296,17 +296,15 @@
 @media(min-width: 1000px){
   .home-wrapper{
     height: 100vh;
-    width: 98vw;
-    background-color: rgb(189, 135, 135);
+    width: 99vw;
   }
   .img-home {
-    margin-top: -5rem;
+    margin-top: -10rem;
     justify-self: flex-end;
-    background-color: red;
     & img {
       max-width: 400px;
       position: absolute;
-      right: 10px;
+      right: 60px;
     }
   }
   
