@@ -115,14 +115,13 @@
     font-weight: 600;
     font-size: 1rem;
     font-family: var(--font-text);
-    transition: all .5s;
+    transition: all .3s;
   }
 }
 .btn-menu button:hover{
   cursor: pointer;
   scale: 1.2rem;
   box-shadow: 4px 4px 6px var(--color3);
-  color: var(--color2);
 }
 
 .cards-wrapper {
