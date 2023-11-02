@@ -66,7 +66,7 @@ const Home = () => {
   
   const [activeContact, setIsActiveContact] = useState(false);
 
-  const [activeP, setIsActiveP] = useState(false);
+  const [activeP, setIsActiveP] = useState(true);
   const [activeP2, setIsActiveP2] = useState(false);
   const [activeP3, setIsActiveP3] = useState(false);
 
