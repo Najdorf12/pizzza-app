@@ -12,7 +12,7 @@
   align-self: flex-start;
   & img {
     max-width: 150px;
-    filter: drop-shadow(3px 3px 2px rgb(10, 10, 10));
+    filter: drop-shadow(3px 3px 4px rgb(0, 0, 0));
   }
 }
 .text {
@@ -33,14 +33,15 @@
   & h1 {
     padding-top: 1rem;
     padding-right: 1.3rem;
+    letter-spacing: .2rem;
     font-family: var(--font-art);
     font-size: 6rem;
     line-height: 4.5rem;
     text-align: center;
-    filter: drop-shadow(3px 3px 5px var(--color3));
+    filter: drop-shadow(12px 10px black);
     background-clip: border-box;
     background: -webkit-linear-gradient(left top, #ffe53b, #ffe53b);
-    background: linear-gradient(148deg, var(--color1) 0%, var(--color5) 50%, var(--color2) 99%);
+    background: linear-gradient(148deg, var(--color1) 0%, var(--color3) 70%, var(--color1) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }

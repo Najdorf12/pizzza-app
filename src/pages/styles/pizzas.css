@@ -1,7 +1,7 @@
 /* PIZZA1 */
 .pizza1-wrapper {
   width: 100vw;
-  height: 80vh;
+  height: 90vh;
   background-color: rgb(27, 22, 22);
   display: flex;
   justify-content: space-between;
@@ -26,6 +26,11 @@
     margin-bottom: 2rem;
     color: var(--color3);
     font-size: 2rem;
+    background-clip: border-box;
+    background: -webkit-linear-gradient(left top, #ffe53b, #ffe53b);
+    background: linear-gradient(148deg, var(--color4) 0%, var(--color3) 40%, var(--color1) 99%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
   & p {
     color: gray;
@@ -51,7 +56,7 @@
 
 .pizza2-wrapper {
   width: 100vw;
-  height: 80vh;
+  height: 90vh;
   background-color: rgb(27, 22, 22);
   display: flex;
   justify-content: space-between;
@@ -75,6 +80,11 @@
     margin-bottom: 2rem;
     color: var(--color3);
     font-size: 2rem;
+    background-clip: border-box;
+    background: -webkit-linear-gradient(left top, #ffe53b, #ffe53b);
+    background: linear-gradient(148deg, var(--color4) 0%, var(--color3) 40%, var(--color1) 99%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
   & p {
     color: gray;
@@ -100,7 +110,7 @@
 
 .pizza3-wrapper {
   width: 100vw;
-  height: 80vh;
+  height: 90vh;
   background-color: rgb(27, 22, 22);
   display: flex;
   justify-content: space-between;
@@ -125,6 +135,11 @@
     margin-bottom: 2rem;
     color: var(--color3);
     font-size: 2rem;
+    background-clip: border-box;
+    background: -webkit-linear-gradient(left top, #ffe53b, #ffe53b);
+    background: linear-gradient(148deg, var(--color4) 0%, var(--color3) 40%, var(--color1) 99%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
   & p {
     color:gray;
@@ -187,10 +202,12 @@
 .btn-prev :hover {
   cursor: pointer;
   scale: 1.2;
+  filter: drop-shadow(1px 1px 2px gray);
 }
 .btn-next :hover {
   cursor: pointer;
   scale: 1.2;
+  filter: drop-shadow(1px 1px 2px gray)
 }
 @media (min-width: 800px) {
   .pizza1-wrapper {
