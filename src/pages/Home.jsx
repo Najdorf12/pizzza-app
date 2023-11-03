@@ -8,9 +8,9 @@ import photo from "/bg-pizza6.jpeg";
 import dataImg from "/data-img.png";
 import dataImg2 from "/data-img2.png";
 import dataImg3 from "/data-img3.png";
+import { motion } from "framer-motion";
 import { useState } from "react";
 import "./styles/home.css";
-
 
 const motionVariants = [
   {
@@ -60,10 +60,50 @@ const motionVariants = [
     },
   },
 ];
+const variants = {
+  hidden: {
+    opacity: 0,
+    scale: 0,
+  },
+  visible: {
+    scale: 1,
+    opacity: 1,
+    y: 0,
+    transition: {
+      duration: 1,
+      ease: "easeInOut",
+    },
+  },
+};
+const variants2 = {
+  hidden: {
+    opacity: 0,
+  },
+  visible: {
+    opacity: 1,
+    transition: {
+      delay: .7,
+      duration: 1,
+      ease: "easeInOut",
+    },
+  },
+};
+const variants3 = {
+  hidden: {
+    opacity: 0,
+  },
+  visible: {
+    opacity: 1,
+    transition: {
+      duration: 1,
+      ease: "easeInOut",
+    },
+  },
+}
 
 const Home = () => {
   const [move, setMove] = useState(motionVariants[0].variantR);
-  
+
   const [activeContact, setIsActiveContact] = useState(false);
 
   const [activeP, setIsActiveP] = useState(true);
@@ -106,20 +146,35 @@ const Home = () => {
   return (
     <>
       <main className="home-wrapper">
-        <section className="logo">
+        <motion.section
+          className="logo"
+          variants={variants2}
+          initial="hidden"
+          animate="visible"
+        >
           <img src={logo} alt="" />
-        </section>
+        </motion.section>
 
-        <section className="text">
+        <motion.section
+          className="text"
+          variants={variants}
+          initial="hidden"
+          animate="visible"
+        >
           <div className="title">
             <h1>HOT CHEESE</h1>
             <p>Pizzeria</p>
           </div>
-        </section>
+        </motion.section>
 
-        <div className="img-home">
+        <motion.div
+          className="img-home"
+          variants={variants2}
+          initial="hidden"
+          animate="visible"
+        >
           <img src={pizzaHome} alt="" />
-        </div>
+        </motion.div>
       </main>
 
       <section className="home2">
@@ -174,16 +229,17 @@ const Home = () => {
         <button onClick={handleViewP1}>MENU</button>
         <button onClick={handleViewContact}>CONTACT</button>
       </section>
-      
-      {activeContact &&  <Contact/>}
-      
+
+      {activeContact && <Contact />}
+
       {activeP && (
         <Pizza1
-           move={move}
+          move={move}
           handleMoveL={handleMoveL}
           handleMoveR={handleMoveR}
           handleViewP2={handleViewP2}
           handleViewP3={handleViewP3}
+          variants3 = {variants3}
         />
       )}
       {activeP2 && (
@@ -193,6 +249,7 @@ const Home = () => {
           handleMoveR={handleMoveR}
           handleViewP1={handleViewP1}
           handleViewP3={handleViewP3}
+          variants3 = {variants3}
         />
       )}
       {activeP3 && (
@@ -203,9 +260,9 @@ const Home = () => {
           handleViewP1={handleViewP1}
           handleViewP2={handleViewP2}
           handleViewP3={handleViewP3}
+          variants3 = {variants3}
         />
       )}
-   
     </>
   );
 };

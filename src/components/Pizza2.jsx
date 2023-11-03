@@ -9,17 +9,22 @@ const Pizza2 = ({
   handleMoveR,
   handleViewP1,
   handleViewP3,
+  variants3
 }) => {
   return (
     <>
       <section className="pizza2-wrapper">
-        <div className="text-pizza2">
+        <motion.div className="text-pizza2"
+         variants={variants3}
+         initial="hidden"
+         animate="visible"
+         >
           <h2>CHICKEN CHEESE</h2>
           <p>
             Lorem ipsum dolor sit, amet Eum rerum excepturi nam enim Lorem ipsum
             dolor sit, amet Eum rerum excepturi nam enim
           </p>
-        </div>
+        </motion.div>
         <section className="pizza2">
           <div className="pizza-btn">
             <button
